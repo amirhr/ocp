@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you cite this specification, please use the metadata below."
+title: "Open Conversion Pingback (OCP)"
+abstract: >-
+  An open, vendor-neutral protocol for delivering post-click conversion
+  signals to any destination on the open wire (publishers, walled gardens,
+  ad networks, affiliate networks). A destination profile of IAB Tech
+  Lab's ECAPI 1.0, with a self-contained click envelope, signed
+  conversion requests, and a federated SPF + DKIM + DMARC authentication
+  model adapted for HTTP.
+type: software
+authors:
+  - family-names: Rad
+    given-names: Amir
+    affiliation: Whimful FZ-LLC
+version: "0.1"
+date-released: "2026-05-01"
+license:
+  - CC-BY-4.0
+  - Apache-2.0
+repository-code: "https://github.com/amirhr/ocp"
+url: "https://github.com/amirhr/ocp/blob/main/SPEC.md"
+keywords:
+  - advertising
+  - ad-tech
+  - conversion-tracking
+  - capi
+  - ecapi
+  - attribution
+  - open-standard
+  - protocol
+  - specification
+  - privacy
+  - open-web
